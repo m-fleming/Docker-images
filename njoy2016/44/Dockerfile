@@ -1,10 +1,6 @@
 FROM njoy21/njoy:llvm
 
-MAINTAINER LANL <Jeremy Lloyd Conlin jlconlin@lanl.gov>
-
-LABEL org.label-schema.description="Docker image for NJOY2016" \
-      org.label-schema.url="https://www.njoy21.io/NJOY2016/" \
-      org.label-schema.vcs-url="https://github.com/njoy/Docker-images/"
+LABEL maintainer="Jeremy Lloyd Conlin jlconlin@lanl.gov"
 
 RUN cd ~ \
     && git clone https://github.com/njoy/NJOY2016.git \
